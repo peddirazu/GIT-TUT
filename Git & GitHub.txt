@@ -107,6 +107,89 @@ Staging area :- Its is the starting stage of git and To add the files in this ar
 Local repository:- This repository for the code/file form the staging area we can commit the files to local repository by using the commit command (git commit). we can add the description here while commit the code by using -m option (git commit -m "comment").we don't have option to commit single file here
 
 
+to add remote git repository this is the command
+git remote add origin https://github.com/peddirazu/GIT-TUT.git
+to push your local repo code to remote repository use below command
+git push -u origin master
+git push -u origin <branch name>
+
+
+branches 
+
+Main/master have code  so we will do deploy/redeploy
+
+if project have 10 features 
+
+each member are working one one feature so every one create separate branch and work on there feature  
+
+
+PR- request (pull request) if its approved they your merge they you deploy from only on master branch 
+
+checkout is the option for change the branch 
+checkout -b for create new branch
+
+
+$ git status
+On branch copy1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        example1.text
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pp3760@INBLR2720 MINGW64 ~/git-learn (copy1)
+$ git add example1.text
+warning: in the working copy of 'example1.text', LF will be replaced by CRLF the next time Git touches it
+
+pp3760@INBLR2720 MINGW64 ~/git-learn (copy1)
+$ git commit -m "latest file added"
+[copy1 edfdafd] latest file added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 example1.text
+
+pp3760@INBLR2720 MINGW64 ~/git-learn (copy1)
+$ git status
+On branch copy1
+nothing to commit, working tree clean
+
+pp3760@INBLR2720 MINGW64 ~/git-learn (copy1)
+$ git push
+fatal: The current branch copy1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin copy1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+pp3760@INBLR2720 MINGW64 ~/git-learn (copy1)
+$ git push --set-upstream origin copy1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 325 bytes | 325.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'copy1' on GitHub by visiting:
+remote:      https://github.com/peddirazu/GIT-TUT/pull/new/copy1
+remote:
+To https://github.com/peddirazu/GIT-TUT.git
+ * [new branch]      copy1 -> copy1
+branch 'copy1' set up to track 'origin/copy1'.
+
+pp3760@INBLR2720 MINGW64 ~/git-learn (copy1)
+$
+
+
+
+
+  
+
+
+
 
 
 
