@@ -1,4 +1,9 @@
 this is the test file
 
 
+<<<<<<< HEAD
 hi
+=======
+
+added Hi
+>>>>>>> origin/master
