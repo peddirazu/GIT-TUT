@@ -1,0 +1,279 @@
+    1  ls
+    2  ls
+    3  git status
+    4  git branch
+    5  git remote add origin https://github.com/peddirazu/git-learn.git
+    6  git push --set-upstream origin master
+    7  ls
+    8  git pull https://github.com/peddirazu/git-learn.git
+    9  ls
+   10  git push --set-upstream origin master
+   11  git remote add origin https://github.com/w3schools-test/hello-world.git
+   12  git remote add origin https://github.com/peddirazu/git-practice-.git
+   13  git fetch origin
+   14  ls
+   15  git status
+   16  git log origin/master
+   17  git diff origin/master
+   18  ls
+   19  ls
+   20  ls
+   21  git add .
+   22  git status
+   23  git commit -m "Test"
+   24  git push
+   25  git push --set-upstream origin master
+   26  git push --set-upstream origin master
+   27  git clone 'https://github.com/peddirazu/git-learn.git'
+   28  ls
+   29  git add .
+   30  git commit -m "Test"
+   31  git push --set-upstream origin master
+   32  clear
+   33  cd Test/
+   34  ls
+   35  git clone https://github.com/peddirazu/git-practice-.git
+   36  ls
+   37  cd git-practice-/
+   38  ls
+   39  ls
+   40  git add .
+   41  git add -a
+   42  git add *
+   43  git add .
+   44  ls
+   45  git status
+   46  git commit -m "Test"
+   47  git push
+   48  ls
+   49  vi index.html
+   50  git add index.html
+   51  git status
+   52  git commit -m "updated the index.html"
+   53  git push index.html
+   54  git push origin index.html
+   55  git push origin https://github.com/peddirazu/git-practice-.git
+   56  git push
+   57  ls
+   58  cd ..
+   59  ls
+   60  cd ..
+   61  ls
+   62  cd Test-branch/
+   63  git clone https://github.com/peddirazu/git-practice-.git
+   64  ls
+   65  cd git-practice-/
+   66  ls
+   67  git remote -v
+   68  git branch -b "test-code"
+   69  git branch  "test-code"
+   70  git branch
+   71  git status
+   72  git branch
+   73  git branch test-code
+   74  git checkout test-code
+   75  git status
+   76  ls
+   77  vi index.html
+   78  git status
+   79  git add index.html
+   80  git status
+   81  git commit -m "updateed the index.html"
+   82  git log
+   83  git push
+   84  git push --set-upstream origin test-code
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd ..
+   89  ls
+   90  cat 'git practice.txt'
+   91  pwd
+   92  cp 'git practice.txt' Test-branch/git-practice-/
+   93  git status
+   94  ls
+   95  cd Test-branch
+   96  ls
+   97  cd git-practice-
+   98  ls
+   99  git status
+  100  ls
+  101  git checkout git-practice-
+  102  git branch
+  103  git checkout main
+  104  git add -A
+  105  git push
+  106  cat 'git practice.txt'
+  107  ls
+  108  vi index.html
+  109  git status
+  110  git add .
+  111  git status
+  112  git commit -m "updated the file index.html"
+  113  git push
+  114  ls
+  115  docker images
+  116  doker images
+  117  docker images
+  118  clear
+  119  cd
+  120  pwd
+  121  mkdir git-learn
+  122  cd git-learn
+  123  pwd
+  124  git init
+  125  clear
+  126  vi example.txt
+  127  ls
+  128  git status
+  129  vi test.py
+  130  git status
+  131  vi test.py
+  132  vi code.txt
+  133  clear
+  134  9ls
+  135  ls
+  136  git status
+  137  clear
+  138  ls
+  139  git add code.txt
+  140  git status
+  141  git example.txt
+  142  git add example.txt
+  143  git status
+  144  git commit -m
+  145  clear
+  146  git commit -m "changes made from linux admin team on file example"
+  147  git status
+  148  git add test.py
+  149  ls
+  150  git status
+  151  git commit -m "Linux team worked on the test.py file"
+  152  git status
+  153  git add -A
+  154  git status
+  155  git commit -m "upload the details about the git and screenshot"
+  156  git remote add origin https://github.com/peddirazu/GIT-TUT.git
+  157  git status
+  158  git push -u origin main
+  159  git push -u origin master
+  160  git push -u origin master
+  161  git checkout -b "copy1"
+  162  git  status
+  163  git branch
+  164  ls
+  165  vi example1.text
+  166  git status
+  167  git add example1.text
+  168  git commit -m "latest file added"
+  169  git status
+  170  git push
+  171  git push --set-upstream origin copy1
+  172  git status
+  173  git add Git\ \&\ GitHub.txt
+  174  git commit -m " updated the file on git and github file"
+  175  git push  --set-upstream origin copy1
+  176  pwd
+  177  cd ..
+  178  ls
+  179  mkdir loca-copy
+  180  cd loca-copy/
+  181  git pull https://github.com/peddirazu/GIT-TUT.git
+  182  pwd
+  183  git clone https://github.com/peddirazu/GIT-TUT.git
+  184  ls
+  185  cd GIT-TUT/
+  186  ls
+  187  cat for_local_test
+  188  echo "updated the details in the file and file downloaded locally: >> for_local_test
+
+
+
+
+  189  echo "updated the details in the file and file downloaded locally" >> for_local_test
+  190  cat for_local_test
+  191  git status
+  192  git branch
+  193  git add for_local_test
+  194  git status
+  195  git commit -m "for_local_test file update"
+  196  git push
+  197  git checkout -b copy2
+  198  ls
+  199  get pull
+  200  git pull
+  201  git checkout -b dev1
+  202  git checkout -b dev2
+  203  ls
+  204  git branch
+  205  ls
+  206  cat example
+  207  cat example.txt
+  208  vi example.txt
+  209  git status
+  210  git add  example.txt
+  211  git commit -m "example.txt updated"
+  212  git push
+  213  git push --set-upstream origin dev2
+  214  git checkout dev1
+  215  git branch
+  216  ls
+  217  git status
+  218  cat example
+  219  cat example.txt
+  220  vi example.txt
+  221  git add example.txt
+  222  git commit -m "example.txt updated with Hi"
+  223  git push
+  224  git push --set-upstream origin dev1
+  225  git checkout master
+  226  git pull
+  227  git merge origin/master
+  228  git branch
+  229  git checkout dev1
+  230  git merge origin/master
+  231  git branch
+  232  git merge origin/master
+  233   git checkout master
+  234  git pull
+  235  git master
+  236  git branch
+  237  git status
+  238  git add example.txt
+  239  git merge origin/master
+  240  git commit -m "update example.txt"
+  241  git merge origin/master
+  242   git checkout -b test1
+  243   git checkout -b test2
+  244  git checkout dev1
+  245  git merge origin/master
+  246  git status
+  247  clear
+  248  ls
+  249  git status
+  250  git branch
+  251  git
+  252  git diff
+  253  git status
+  254  ls
+  255  git restore copy1
+  256  git restore
+  257  git status
+  258  history
+
+
+pp3760@INBLR2720 MINGW64 ~/loca-copy/GIT-TUT (dev1)
+$ git branch -d dev2
+warning: deleting branch 'dev2' that has been merged to
+         'refs/remotes/origin/dev2', but not yet merged to HEAD.
+Deleted branch dev2 (was 36dd6a2).
+
+pp3760@INBLR2720 MINGW64 ~/loca-copy/GIT-TUT (dev1)
+$ git branch
+  copy2
+* dev1
+  master
+  test1
+  test2
+
+
