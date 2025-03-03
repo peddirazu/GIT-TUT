@@ -260,3 +260,17 @@
   256  git restore
   257  git status
   258  history
+
+pp3760@INBLR2720 MINGW64 ~/loca-copy/GIT-TUT (dev1)
+$ git branch -d dev2
+warning: deleting branch 'dev2' that has been merged to
+         'refs/remotes/origin/dev2', but not yet merged to HEAD.
+Deleted branch dev2 (was 36dd6a2).
+
+pp3760@INBLR2720 MINGW64 ~/loca-copy/GIT-TUT (dev1)
+$ git branch
+  copy2
+* dev1
+  master
+  test1
+  test2
